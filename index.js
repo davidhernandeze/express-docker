@@ -28,6 +28,6 @@ app.shutdown = function () {
 
 const port = 3000
 
-app.get('/', (req, res) => res.send('Hello Worldy!'))
+app.get('/', (req, res) => res.send('Hi there!!'))
 
 app.listen(port, () => logger.info(`Example app listening at http://localhost:${port}`))
