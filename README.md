@@ -1,7 +1,17 @@
 # Basic Dockerized Express Boilerplate
 
+## Main features
+* Minimal "Production ready" intended Docker environment
+* Dockerfile based on node:12-alpine
+* Express
+* [EsLint](https://eslint.org/) with Javascript Standard boilerplate for node
+* Logger via [Pino node package](https://github.com/pinojs/pino)
+* Graceful shutdown via [Stopper node package](https://github.com/hunterloftis/stoppable)
+* [Helmet](https://helmetjs.github.io/) for basic security
+
 ## Build and run docker container
 `docker-compose up --build`
+and open `localhost:420`
 
 ## Useful readings
 * Digital Ocean How To Build a Node.js Application with Docker
@@ -28,13 +38,6 @@ https://blog.risingstack.com/graceful-shutdown-node-js-kubernetes/
 * Docker for Node.js in Production
 https://medium.com/better-programming/docker-for-node-js-in-production-b9dc0e9e48e0
 
-
-## Some libraries used on this project
-* Node Stoppable 
-https://github.com/hunterloftis/stoppable
-
-* Pino Node Logger
-https://github.com/pinojs/pino
 
 Contact me, I'm always happy to help.
 David Hernández
