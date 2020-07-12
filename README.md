@@ -1,3 +1,6 @@
+## Build and run docker container
+`docker-compose up --build`
+
 ## How to use linter in a node project
 https://medium.com/the-node-js-collection/why-and-how-to-use-eslint-in-your-project-742d0bc61ed7
 

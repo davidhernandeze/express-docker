@@ -13,6 +13,8 @@ COPY index.js .
 
 RUN chown node:node index.js
 
+EXPOSE 3000
+
 USER node
 CMD [ "node", "index.js"]
 

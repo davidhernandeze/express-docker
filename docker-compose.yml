@@ -1,0 +1,8 @@
+version: '2.0'
+services:
+  server:
+    build: .
+    ports:
+      - "420:3000"
+    volumes:
+      - .:/home/node/app
