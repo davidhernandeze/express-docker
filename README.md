@@ -22,6 +22,9 @@ https://softwareontheroad.com/ideal-nodejs-project-structure/
 * FUTURE: Creating a Node Express-Webpack App with Dev and Prod Builds
 https://medium.com/@binyamin/creating-a-node-express-webpack-app-with-dev-and-prod-builds-a4962ce51334
 
+* FUTURE: Graceful shutdown with Node.js and Kubernetes
+https://blog.risingstack.com/graceful-shutdown-node-js-kubernetes/
+
 * Docker for Node.js in Production
 https://medium.com/better-programming/docker-for-node-js-in-production-b9dc0e9e48e0
 
