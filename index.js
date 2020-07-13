@@ -1,6 +1,6 @@
+const express = require('express')
 const process = require('process')
 const logger = require('pino')()
-const express = require('express')
 const helmet = require('helmet')
 const stoppable = require('stoppable')
 
