@@ -8,7 +8,7 @@
     "linter": "eslint --ignore-path .gitignore .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npm run build && nodemon --exec \"npm run build && node dist/app.js\" -e js --ignore dist/",
-    "serve": "node dist/app.js"
+    "serve": "npm run build && node dist/app.js"
   },
   "author": "Coworg",
   "license": "ISC",
