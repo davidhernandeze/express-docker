@@ -4,14 +4,16 @@
   "description": "Minderal Auth proxy and auth server",
   "main": "index.js",
   "scripts": {
-    "build": "babel src/app.js -d dist",
+    "build": "babel src -d dist",
     "linter": "eslint --ignore-path .gitignore .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "npm run build && nodemon dist/app.js"
+    "dev": "npm run build && nodemon --exec \"npm run build && node dist/app.js\" -e js --ignore dist/",
+    "serve": "node dist/app.js"
   },
   "author": "Coworg",
   "license": "ISC",
   "dependencies": {
+    "@babel/runtime": "^7.10.4",
     "body-parser": "latest",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
@@ -24,6 +26,7 @@
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "eslint": "^7.4.0",
     "eslint-config-standard": "^14.1.1",
