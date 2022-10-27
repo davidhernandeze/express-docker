@@ -37,8 +37,3 @@ https://blog.risingstack.com/graceful-shutdown-node-js-kubernetes/
 
 * Docker for Node.js in Production
 https://medium.com/better-programming/docker-for-node-js-in-production-b9dc0e9e48e0
-
-
-Contact me, I'm always happy to help.
-David Hernández
-david@coworg.com
